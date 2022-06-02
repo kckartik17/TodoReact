@@ -1,4 +1,4 @@
-export default (props) => (
+const Todo = (props) => (
   <div style={{ display: "flex", justifyContent: "center" }}>
     <div
       style={{
@@ -14,3 +14,5 @@ export default (props) => (
     </div>
   </div>
 );
+
+export default Todo;
